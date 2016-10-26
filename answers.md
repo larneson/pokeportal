@@ -1,6 +1,8 @@
 # Q0: Why is this error being thrown?
+We don't have a model called Pokemon yet
 
 # Q1: How are the random Pokemon appearing? What is the common factor between all the possible Pokemon that appear? *
+In the HomeController, it samples from all the pokemon (which we seeded) where trainer is nil.
 
 # Question 2a: What does the following line do "<%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>"? Be specific about what "capture_path(id: @pokemon)" is doing. If you're having trouble, look at the Help section in the README.
 
